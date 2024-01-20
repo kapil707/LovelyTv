@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:id="@+id/action_bar_back"
+                android:contentDescription="ok"
+                android:background="@drawable/back_button"
+                android:layout_gravity="center"
+                android:layout_margin="10dip"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18dip"
+                android:text="Large Text"
+                android:id="@+id/action_bar_title"
+                android:layout_gravity="center"
+                android:layout_margin="10dip"/>
+        </LinearLayout>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/menu_loading1"
+            android:indeterminateTint="@color/background_white"
+            android:visibility="gone"/>
+
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cast_LinearLayout">
+
+            <ImageView
+                android:layout_width="25dip"
+                android:layout_height="25dip"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="20dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginBottom="20dip"
+                android:background="@drawable/cast" />
+
+    </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

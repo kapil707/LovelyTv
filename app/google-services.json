@@ -1,0 +1,159 @@
+{
+  "project_info": {
+    "project_number": "655571690509",
+    "firebase_url": "https://fir-demo1-a6592.firebaseio.com",
+    "project_id": "fir-demo1-a6592",
+    "storage_bucket": "fir-demo1-a6592.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655571690509:android:54f55a6d9ad9206801a144",
+        "android_client_info": {
+          "package_name": "com.dr.firebase2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655571690509-5btgfbpkfosec3jgkgb5cvl04hqk2vju.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dr.firebase2",
+            "certificate_hash": "78dea817727efb2f21616eaf2c468de9bdc2c2d3"
+          }
+        },
+        {
+          "client_id": "655571690509-12db33s8u8qrp1r5d7t0lp3faii6grq1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChrAFJTtqXZ6AjE6LhI1h1enY7TIOVRNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655571690509-12db33s8u8qrp1r5d7t0lp3faii6grq1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655571690509:android:354344a88af349da01a144",
+        "android_client_info": {
+          "package_name": "com.dr.firebasedemo1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655571690509-63cadtt6k0v1bsao2o0l9v15adjd5kdh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dr.firebasedemo1",
+            "certificate_hash": "78dea817727efb2f21616eaf2c468de9bdc2c2d3"
+          }
+        },
+        {
+          "client_id": "655571690509-12db33s8u8qrp1r5d7t0lp3faii6grq1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChrAFJTtqXZ6AjE6LhI1h1enY7TIOVRNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655571690509-12db33s8u8qrp1r5d7t0lp3faii6grq1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655571690509:android:ec614d9f974a9e6701a144",
+        "android_client_info": {
+          "package_name": "com.kavita.rkslivetv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655571690509-2q6i3la6ge5fv1mafpoofp28ktb5iqph.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kavita.rkslivetv",
+            "certificate_hash": "19d03e20270351ba33b8f495e5e72bece03c53b8"
+          }
+        },
+        {
+          "client_id": "655571690509-12db33s8u8qrp1r5d7t0lp3faii6grq1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChrAFJTtqXZ6AjE6LhI1h1enY7TIOVRNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655571690509-12db33s8u8qrp1r5d7t0lp3faii6grq1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655571690509:android:c3cd80b337c456ff01a144",
+        "android_client_info": {
+          "package_name": "com.my.lovelytv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655571690509-1g4ussl3q5egffqsdlqljku9adj48rsu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.my.lovelytv",
+            "certificate_hash": "4d624914b362e70fc2276e3a74b7e44ec4388ff4"
+          }
+        },
+        {
+          "client_id": "655571690509-12db33s8u8qrp1r5d7t0lp3faii6grq1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChrAFJTtqXZ6AjE6LhI1h1enY7TIOVRNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655571690509-12db33s8u8qrp1r5d7t0lp3faii6grq1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

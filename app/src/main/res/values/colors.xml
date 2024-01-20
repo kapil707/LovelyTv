@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="newrksbg">#211600</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#008577</color>
+    <color name="colorAccent">#008577</color>
+    <color name="background_white">#ffffff</color>
+    <color name="blackclr">#000000</color>
+
+    <color name="trasp">#11000000</color>
+    <color name="gray">#dadada</color>
+    <color name="gray1">#b4b2b2</color>
+    <color name="gray2">#F7F7F7</color>
+</resources>

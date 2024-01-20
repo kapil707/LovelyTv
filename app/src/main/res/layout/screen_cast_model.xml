@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/newrksbg">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:layout_width="0dip"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:id="@+id/ScreenMirroringbtn">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="100dip"
+                android:layout_height="100dip"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/cast"/>
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:text="Screen Mirroring"
+                android:layout_margin="5dip"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:layout_width="0dip"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:id="@+id/ScreenCastbtn">
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="100dip"
+                android:layout_height="100dip"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/cast"/>
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="Screen Cast"
+                android:layout_margin="5dip"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/dialogButtonOK"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:background="@color/blackclr"
+        android:text="Cancel"
+        android:textSize="20dip"
+        android:textColor="#ffffff"
+        />
+    </LinearLayout>
+</RelativeLayout>

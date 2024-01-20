@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.my.lovelytv">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!--<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />-->
+    <!-- Required only when requesting background location access on
+       Android 10 (API level 29). -->
+    <!--<uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />-->
+
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="true" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@drawable/ok2"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@drawable/ok2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login" android:configChanges="keyboard|orientation|screenSize" ></activity>
+        <activity
+            android:name=".demo"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name=".Player_mp4_mkv"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:keepScreenOn="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Default_m3u8"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:keepScreenOn="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Player_m3u8"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:keepScreenOn="true"
+            android:screenOrientation="landscape" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="true" />
+        <!--
+                <service
+                    android:name="com.my.lovelytv.MyJobService"
+                    android:exported="true"
+                    android:label="Test"
+                    android:permission="android.permission.BIND_JOB_SERVICE" />
+
+                <service
+                    android:name="com.my.lovelytv.ForegroundService"
+                    android:enabled="true"
+                    android:exported="false"
+                    android:foregroundServiceType="location"
+                    android:permission="android.permission.BIND_JOB_SERVICE"
+                    android:stopWithTask="false" />
+        -->
+                <activity
+                    android:name=".Home_page"
+                    android:configChanges="keyboardHidden|orientation|screenSize" />
+
+                <activity
+                    android:name="com.my.lovelytv.MainActivity"
+                    android:configChanges="keyboardHidden|orientation|screenSize"
+                    android:banner="@drawable/ok2"
+                    android:exported="true"
+                    android:icon="@drawable/ok2"
+                    android:label="@string/app_name"
+                    android:logo="@drawable/ok2"
+                    android:screenOrientation="landscape">
+                    <!--android:excludeFromRecents="true"
+                    android:launchMode="singleTask"
+                    android:taskAffinity=""-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+                <service android:name="com.my.lovelytv.MyLocationService" android:process=":mylocation_service" />
+
+                        <service android:name="com.my.lovelytv.MyMessagingServices"
+                            android:permission="true"
+                            android:stopWithTask="false">
+                            <intent-filter>
+                                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+                            </intent-filter>
+                        </service>
+
+
+                        <receiver
+                            android:name="com.my.lovelytv.BootCompleteReceiver"
+                            android:permission="com.google.android.c2dm.permission.SEND">
+                            <intent-filter>
+                                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                                <category android:name="net.korul.hbbft" />
+
+                                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                                <category android:name="android.intent.category.DEFAULT" />
+
+                                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+                                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                                <action android:name="android.intent.action.DATE_CHANGED" />
+                                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                                <action android:name="android.intent.action.USER_PRESENT" />
+                                <action android:name="android.intent.action.TIME_TICK" />
+                                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+
+                                <action android:name="android.intent.action.SCREEN_OFF" />
+                                <action android:name="android.intent.action.SCREEN_ON" />
+                                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+                                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+                            </intent-filter>
+                        </receiver>-->
+
+    </application>
+
+</manifest>
